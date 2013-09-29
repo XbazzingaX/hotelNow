@@ -14,7 +14,7 @@ class Hotel(models.Model):
     descripcion = models.TextField()
     categoria = models.ForeignKey(Categoria)
     timestamp = models.DateTimeField(auto_now_add=True)
-    #imagen = models.ImageField(upload_to='enlaces/', blank=True, null=True)
+    imagen = models.ImageField(upload_to='hoteles/', blank=True, null=True)
 
     def __unicode__(self):
-        return "%s -  %s" % (self.titulo,self.enlace)
+        return "%s" % (self.titulo)
