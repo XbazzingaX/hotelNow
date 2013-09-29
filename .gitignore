@@ -15,11 +15,6 @@
 .settings
 atlassian-ide-plugin.xml
 
-# Project
-/espectro/.sass-cache
-# /espectro/local_settings.py
-/espectro/public/static
-/espectro/public/media
 
 # Node & Bower
 npm_modules/
